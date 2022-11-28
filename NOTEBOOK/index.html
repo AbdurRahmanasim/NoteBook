@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>noteBOOK</title>
+</head>
+<body>
+    <!-- blur loader -->
+    <!-- <section class="bgg">
+        <div class="lt">
+            0%
+        </div>
+    </section> -->
+
+    <!-- Header -->
+    <div class="nav">
+        <img src="./images/logo.png" alt="">
+    </div>
+
+    <!-- Add Note Form -->
+    <div class="container">
+
+        <div class="form">
+            <h1>Add your note...</h1>
+
+            <div class="field">
+                <label>Title</label>
+                <input type="text" id="title" placeholder="Enter your title...">
+            </div>
+<br>
+            <div class="field">
+                <label>Description</label>
+                <input type="text" id="desc" placeholder="Enter your description...">
+            </div>
+
+            <div class="myBtns">
+                <button class="delBtn btn" onclick="delAll()"><i class="fas fa-trash"></i></button>
+                <button class="addBtn btn" onclick="add()"><i class="fal fa-plus"></i></button>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hrr">
+    
+        <h2>Your Notes....</h2>
+        
+    </div>
+
+
+
+    <div class="notes" id="noteCard">
+
+       
+    
+
+    </div>
+
+
+    <!-- <footer>
+        <h2>Copyright &copy; 2022, noteBOOK. All Rights Reserved.</h2>
+    </footer> -->
+
+</body>
+<script src="app.js"></script>
+</html>
